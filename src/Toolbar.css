@@ -1,0 +1,33 @@
+#toolbar {
+  flex: 0 0 auto;
+  background-color: rgb(241, 241, 241);
+  padding: 10px;
+}
+
+#toolbar fieldset {
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border: 2px groove #c0c0c0;
+}
+
+#toolbar .input-color {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#toolbar .input-width {
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+#toolbar .actions-fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#toolbar button {
+    margin: 3px 0;
+    background-color: rgb(32, 136, 255);
+    color: white;
+}
