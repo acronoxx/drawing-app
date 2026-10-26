@@ -219,9 +219,6 @@ Dragging a handle scales the shape relative to the opposite handle, which stays 
 
 This project was developed with the help of **Claude** (Anthropic), used through Claude Code as a tutor and reviewer.
 
-### v1
-
-
 - **Explanations**: role of each file of the template, React concepts (state vs. ref, lifting state up, controlled vs. uncontrolled inputs, `useEffect` timing), TypeScript features (union types, optional chaining, interfaces vs. abstract classes), and the State design pattern.
 - **Documentation**: writing TSDoc comments for the components, the drawing model, the shapes and the modes, and drafting this README.
 - **Review**: pointing out inconsistencies and bugs, which I then fixed myself.
@@ -230,7 +227,3 @@ This project was developed with the help of **Claude** (Anthropic), used through
 - **Understanding the resize (bonus)**: Claude explained how to scale a shape from a handle: the opposite handle as the fixed point, the scale factor `(mouse - fixed) / (handle - fixed)`, the formula `fixed + (p - fixed) * scale` for positions (and a plain multiplication for sizes such as `wh`), negative factors to flip the shape, and starting again from a copy of the original shape at each mouse move.
 
 The rest of the application code was written by me.
-
-### v2
-
-<!-- TODO: describe how Claude was used for v2 -->
