@@ -1,0 +1,8 @@
+#div-canvas {
+  flex: 1;
+}
+
+canvas {
+  width: 99%;
+  height: 99%;
+}
